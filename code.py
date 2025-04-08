@@ -1,5 +1,5 @@
 
-# coding: utf-8
+# coding: 
 This notebook will walk you through the cryptographic quest we've created for you! 
 
 You're going to solve a series of puzzles. First few of them will lead you to a secret link containing more puzzles and instructions, then you'll get another link, and so on. In the end, you will get the final answer. You'll be able to get points for the course for solving some parts of this quest. To do so, you will need to submit the information you get in this notebook to the next quiz called "RSA Quest Quiz".
@@ -95,7 +95,7 @@ secret_link = decrypt_second_puzzle + decrypt_first_puzzle
 print(secret_link)
 
 Substitute the implementation of the function "DecipherSmallPrime" below with your implementation from "RSA Quiz", question 4. Also, insert the values for the ciphertext, modulo and exponent from the secret document. Then launch to get the first part of the next secret link.
-# In[16]:
+# In[4]:
 
 
 def DecipherSmallPrime(ciphertext, modulo, exponent):  
@@ -113,7 +113,7 @@ decrypt_third_puzzle = DecipherSmallPrime(ciphertext, modulo, exponent)
 print(decrypt_third_puzzle)
 
 Substitute the implementation of the function "DecipherSmallDiff" below with your implementation from "RSA Quiz", question 5. Also, insert the values for the ciphertext, modulo and exponent from the secret document. Then launch to get the second part of the next secret link.
-# In[21]:
+# In[5]:
 
 
 def IntSqrt(n):
@@ -143,14 +143,14 @@ decrypt_fourth_puzzle = DecipherSmallDiff(ciphertext, modulo, exponent)
 print(decrypt_fourth_puzzle)
 
 Now you have both parts of the second link. To get the link, just launch the next part of the notebook. Then follow the link to get more instructions. Also, if you follow the correct link, you will get the answer to the second question of the following "RSA Quest Quiz"!
-# In[23]:
+# In[6]:
 
 
 second_secret_link = decrypt_third_puzzle + decrypt_fourth_puzzle
 print(second_secret_link)
 
 Substitute the implementation of the function "DecipherCommonDivisor" below with your implementation from "RSA Quiz", question 6. Also, insert the corresponding values for the ciphertexts, modulos and exponents from the second secret document. Then launch to get the first and the second parts of the final answer.
-# In[27]:
+# In[7]:
 
 
 def GCD(a, b):
@@ -174,7 +174,7 @@ decrypt_sixth_puzzle = DecipherCommonDivisor(first_ciphertext, first_modulo, fir
 print(decrypt_sixth_puzzle)
 
 Substitute the implementation of the function "DecipherHastad" below with your implementation from "RSA Quiz", question 7. Also, insert the values for the ciphertexts and modulos from the second secret document. Then launch to get the third - and the last - part of the final answer.
-# In[28]:
+# In[8]:
 
 
 def ChineseRemainderTheorem(n1, r1, n2, r2):
@@ -195,7 +195,7 @@ decrypt_seventh_puzzle = DecipherHastad(first_ciphertext, first_modulo, second_c
 print(decrypt_seventh_puzzle)
 
 Now just launch the next part to get the final answer, then copy and paste to submit it as the answer to the question 3 of the "RSA Quest Quiz"!
-# In[29]:
+# In[9]:
 
 
 final_answer = decrypt_sixth_puzzle[0] + decrypt_sixth_puzzle[1] + decrypt_seventh_puzzle
