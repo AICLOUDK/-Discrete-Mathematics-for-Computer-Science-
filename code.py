@@ -1,10 +1,3 @@
-
-# coding: 
-This notebook will walk you through the cryptographic quest we've created for you! 
-
-You're going to solve a series of puzzles. First few of them will lead you to a secret link containing more puzzles and instructions, then you'll get another link, and so on. In the end, you will get the final answer. You'll be able to get points for the course for solving some parts of this quest. To do so, you will need to submit the information you get in this notebook to the next quiz called "RSA Quest Quiz".
-
-You won't need to do any programming or guesswork in this notebook. If you've solved some of the questions in the previous quiz, "RSA Quiz", you'll need to copy the code of your solutions to the corresponding functions in this notebook, launch the corresponding parts of the notebook and get the keys. You will be able to get some points even if you didn't solve all the questions of the "RSA Quiz"!And the first puzzle is based on the question 2 of the "RSA Quiz". In the next part of the notebook, first go some utility functions, then goes the main function "Decrypt". Please copy the code of your correct implementation of the function Decrypt in that question so as to substitute our current implementation, then launch the corresponding parts of the notebook to get the first part of secret link.
 # In[1]:
 
 
